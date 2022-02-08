@@ -6,8 +6,8 @@ function App() {
   const [current, send] = useMachine(trafficLightMachine);
 
   return (
-    <div className="main__container">
-      <div className="main__traffic-light">
+    <div className="container">
+      <div className="traffic-light">
         <input
           type="checkbox"
           readOnly
